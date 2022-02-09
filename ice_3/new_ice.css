@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.branding{
+    text-align: center;
+    grid-column: 2;
+}
+.checklist{
+    text-align: center;
+    grid-column: 2;
+}
+.glasses{
+    margin: auto;
+    width: auto;
+    grid-column: 1;
+    padding: 18px;
+}
+.name{
+    grid-column: 2;
+    border: solid gray 1px;
+    border-radius: 10px;
+    
+}
+.email{
+    grid-column: 2;
+    border: solid gray 1px;
+    border-radius: 10px;
+}
+.subscribe-box{
+grid-column:2;
+text-align:center;
+}
+.subscribe{
+    background-color: #DDA15E;
+    border-radius: 5px;
+    padding: 18px;
+    color: white;
+    margin:5px;
+
+}
+.subscribe:hover{
+    background-color: #BC6C25;
+}
