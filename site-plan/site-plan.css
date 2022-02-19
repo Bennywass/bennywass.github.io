@@ -1,0 +1,94 @@
+/*https://coolors.co/palette/335c67-fff3b0-e09f3e-9e2a2b-540b0e*/
+
+body{
+    background-color: white;
+}
+header{
+    text-align: center;
+    color: #FFF3B0;
+    background-color: #335C67;
+    padding: 10px;
+    font-family: dancing script;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.purpose{
+    margin: 50px;
+    padding: 10px;
+    background-color: #FFF3B0;
+}
+.audience{
+    margin: 50px;
+    padding: 10px;
+    background-color: #FFF3B0;
+}
+.big_text{
+    text-align: center;
+    color: #9E2A2B;
+    font-family: dancing script;
+}
+.text{
+    font-family: Josefin Sans;
+}
+
+
+
+.font_names{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #335C67;
+    padding: 10px;
+}
+.font_text{
+    text-align: center;
+    color: #9E2A2B;
+    font-family: dancing script;
+}
+.dancing_script{
+    font-family: dancing script;
+    color: #FFF3B0;
+    text-align: center;
+}
+.josefin_sans{
+    font-family: Josefin Sans;
+    color: #FFF3B0;
+    text-align: center;
+}
+
+
+.colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.blue{
+    width: 250px;
+    height: 250px;
+    background-color: #335C67;
+    grid-column: 1;
+}
+.pale{
+    width: 250px;
+    height: 250px;
+    background-color: #FFF3B0;
+    grid-column: 2;
+}
+.orange{
+    width: 250px;
+    height: 250px;
+    background-color: #E09F3E;
+    grid-column: 3;
+}
+.red{
+    width: 250px;
+    height: 250px;
+    background-color: #9E2A2B;
+    grid-column: 4;
+}
+.burgundy{
+    width: 250px;
+    height: 250px;
+    background-color: #540B0E;
+    grid-column: 5;
+}
