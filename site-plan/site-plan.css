@@ -1,3 +1,5 @@
+/*https://coolors.co/palette/335c67-fff3b0-e09f3e-9e2a2b-540b0e*/
+
 body{
     background-color: white;
 }
@@ -30,13 +32,17 @@ header{
 .text{
     font-family: Josefin Sans;
 }
+.img{
+    max-width: 890;
+    max-height: 890px;
+}
+
 
 .topic{
     background-color: #FFF3B0;
     font-family: Josefin Sans;
     padding: 10px;
 }
-h2
 
 
 
@@ -65,35 +71,47 @@ h2
 
 .colors{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
 }
 .blue{
     width: 250px;
     height: 250px;
     background-color: #335C67;
     grid-column: 1;
+    grid-row: 1;
 }
 .pale{
     width: 250px;
     height: 250px;
     background-color: #FFF3B0;
     grid-column: 2;
+    grid-row: 1;
 }
 .orange{
     width: 250px;
     height: 250px;
     background-color: #E09F3E;
     grid-column: 3;
+    grid-row: 1;
 }
 .red{
     width: 250px;
     height: 250px;
     background-color: #9E2A2B;
-    grid-column: 4;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
 }
 .burgundy{
     width: 250px;
     height: 250px;
     background-color: #540B0E;
-    grid-column: 5;
+    grid-column: 2;
+    grid-row: 2;
+}
+#meat{
+    max-width: 890px;
+    max-height: 890px;
+    grid-column: 4;
+    grid-row: 1/3;
 }
