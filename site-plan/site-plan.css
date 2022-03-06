@@ -33,7 +33,8 @@ header{
     font-family: Josefin Sans;
 }
 .img{
-    max-width: 890;
+    margin-left: 250px;
+    max-width: 890px;
     max-height: 890px;
 }
 
