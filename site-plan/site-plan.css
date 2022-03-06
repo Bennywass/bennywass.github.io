@@ -45,6 +45,28 @@ header{
 }
 
 
+.wireframes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #335C67;
+    padding: 10px;
+}
+#home_wire{
+    max-width: 300px;
+    grid-column: 1;
+    margin: 0 auto;
+}
+#recipe_wire{
+    max-width: 300px;
+    grid-column: 2;
+    margin: 0 auto;
+}
+#about_me_wire{
+    max-width: 300px;
+    grid-column: 3;
+    margin: 0 auto;
+}
+
 
 .font_names{
     display: grid;
