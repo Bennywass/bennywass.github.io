@@ -219,7 +219,7 @@ h3{
     color: #606C38;
 }
 h1 {
-    color: #606C38;
+    color: #DDA15E;
 }
 h2{
     text-align: center;
@@ -233,6 +233,41 @@ h3 a:hover{
     background-color: #BC6C25;
     color: #FEFAE0;
     text-decoration: underline;
+}
+
+
+/* subpage*/
+.info{
+    font-family: rock salt;
+}
+ul{
+    line-height: none;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+#phone-number a{
+    list-style: none;
+    color:#606C38;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#email a{
+    margin-bottom: 30px;
+    list-style: none;
+    color:#606C38;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#phone-number a:hover{
+    list-style: none;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#email a:hover{
+    list-style: none;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
