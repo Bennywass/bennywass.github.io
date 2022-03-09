@@ -1,0 +1,24 @@
+
+body {background-color: blueviolet;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+.frog-color{
+    background-color: cornflowerblue;
+}
+.jumping{
+    background-color: crimson;
+    grid-row: 2;
+    grid-column: 2;
+}
+.jumping div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: bold;
+}
+.bugs{
+    background-color: darkkhaki;
+    grid-column: 2/4;
+}

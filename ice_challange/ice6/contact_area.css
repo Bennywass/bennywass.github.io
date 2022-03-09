@@ -1,0 +1,35 @@
+body, h1, h2, h3, h4, h5, h6 li, ul, p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ced7e4;
+}
+a:link, a:visited, a:hover, a:active, a:focus{
+    color: #478ecb;
+}
+a:hover{
+    color: #997364;
+}
+img{
+    max-width: 200px;
+}
+h2{
+    font-size: 1.2em;
+    margin-bottom: 24px;
+}
+main{
+    display: grid;
+    grid-template-columns: 200px 400px;
+    gap: 65px;
+    font: 16px;
+    margin: 10px auto;
+    width: 715px;
+}
+main img{
+    width: 100%;
+}
+ul{
+    font-size: 1.16em;
+    list-style: none;
+}
