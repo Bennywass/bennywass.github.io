@@ -1,0 +1,275 @@
+body{
+    background-color: white;
+}
+header{
+    text-align: center;
+    color: #FFF3B0;
+    background-color: #335C67;
+    padding: 10px;
+    font-family: dancing script;
+    font-size: 2em;
+}
+#content{
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+
+nav{
+    justify-content: space-around;
+    display: flex;
+}
+nav a{
+    text-align: center;
+    color: #FEFAE0;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: #FFF3B0;
+    color: #9E2A2B;
+}
+footer{
+    color: #FFF3B0;
+    background-color: #335C67;
+    margin-top: 200px;
+    padding: 25px 50px;
+    font-family: Josefin Sans;
+}
+h4{
+    margin-left: 100px;
+}
+.title{
+    font-family: dancing script;
+    font-size: 3em;
+    color: #9E2A2B;
+    text-align: center;
+}
+
+
+/*Main Site*/
+.top-page{
+    display: flex;
+}
+.big-picture{
+    max-width: 800px;
+    margin-top: 20px;
+}
+.title-box{
+    margin-top: 20px;
+    background-color: #FFF3B0;
+    padding: 10px;
+    max-height: 500px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.message-main{
+    font-family: Josefin Sans;
+}
+
+
+.recipes{
+    display: flex;
+}
+.food-photo{
+    max-width: 250px;
+}
+.recipe-name{
+    color: #9E2A2B;
+    font-family: dancing script;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+}
+.recipe-name:hover{
+    text-decoration: underline;
+}
+.recipe-box{
+    margin: 10px;
+    background-color: #FFF3B0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* recipes*/
+.main-food{
+    max-width: 600px;
+    margin-left: 350px;
+}
+.first-box{
+    display: flex;
+    margin-top: 50px;
+}
+.ingrediants-list{
+    font-family: Josefin Sans;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.ingrediants{
+    background-color: gray;
+    border: solid black 1px;
+    padding: 50px;
+    padding-right: 70px;
+    margin-left: 50px;
+}
+.description{
+    max-width: 500px;
+    margin-left: 100px;
+    font-family: Josefin Sans;
+}
+.prep{
+    margin: 50px;
+}
+.prep-text{
+    margin-top: 100px;
+    font-family: Josefin Sans;
+}
+
+
+
+/* about me*/
+.about-me{
+    display: flex;
+    background-color:#FFF3B0;
+    padding: 15px;
+}
+.about-photo{
+    max-width: 400px;
+}
+.about-text{
+    font-family: Josefin Sans;
+    font-size: 1.5em;
+}
+
+
+
+
+/* Site Plan*/
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.purpose{
+    margin: 50px;
+    padding: 10px;
+    background-color: #FFF3B0;
+}
+.audience{
+    margin: 50px;
+    padding: 10px;
+    background-color: #FFF3B0;
+}
+.big_text{
+    text-align: center;
+    color: #9E2A2B;
+    font-family: dancing script;
+}
+.text{
+    font-family: Josefin Sans;
+}
+.img{
+    margin-left: 250px;
+    max-width: 890px;
+    max-height: 890px;
+}
+
+
+.topic{
+    background-color: #FFF3B0;
+    font-family: Josefin Sans;
+    padding: 10px;
+}
+
+
+.wireframes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #335C67;
+    padding: 10px;
+}
+#home_wire{
+    max-width: 300px;
+    grid-column: 1;
+    margin: 0 auto;
+}
+#recipe_wire{
+    max-width: 300px;
+    grid-column: 2;
+    margin: 0 auto;
+}
+#about_me_wire{
+    max-width: 300px;
+    grid-column: 3;
+    margin: 0 auto;
+}
+
+
+.font_names{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #335C67;
+    padding: 10px;
+}
+.font_text{
+    text-align: center;
+    color: #9E2A2B;
+    font-family: dancing script;
+}
+.dancing_script{
+    font-family: dancing script;
+    color: #FFF3B0;
+    text-align: center;
+}
+.josefin_sans{
+    font-family: Josefin Sans;
+    color: #FFF3B0;
+    text-align: center;
+}
+
+
+.colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+}
+.blue{
+    width: 250px;
+    height: 250px;
+    background-color: #335C67;
+    grid-column: 1;
+    grid-row: 1;
+}
+.pale{
+    width: 250px;
+    height: 250px;
+    background-color: #FFF3B0;
+    grid-column: 2;
+    grid-row: 1;
+}
+.orange{
+    width: 250px;
+    height: 250px;
+    background-color: #E09F3E;
+    grid-column: 3;
+    grid-row: 1;
+}
+.red{
+    width: 250px;
+    height: 250px;
+    background-color: #9E2A2B;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+}
+.burgundy{
+    width: 250px;
+    height: 250px;
+    background-color: #540B0E;
+    grid-column: 2;
+    grid-row: 2;
+}
+#meat{
+    max-width: 890px;
+    max-height: 890px;
+    grid-column: 4;
+    grid-row: 1/3;
+}
