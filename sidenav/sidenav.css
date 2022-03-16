@@ -1,0 +1,45 @@
+body{
+    background-color: burlywood;
+}
+#mySidenav a{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 0 5px 0;
+}
+
+#mySidenav a:hover{
+    left: 0;
+}
+
+#about{
+    top: 20px;
+    background-color: aqua;
+}
+#blog{
+    top: 80px;
+    background-color: aquamarine;
+}
+#projects{
+    top: 140px;
+    background-color: rgb(4, 235, 158);
+}
+#contact{
+    top: 200px;
+    background-color: rgb(40, 204, 149);
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 700px;
+    margin-left: 290px;
+}
